@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Coffee Shop Inventory Tracking</string>
+    <string name="homeScreen_title_top">Coffee Shop</string>
+    <string name="homeScreen_title_bottom">Inventory Tracking</string>
+    <string name="homeScreen_button">Enter</string>
+
+    <string name="mainScreen_syrup">Syrups</string>
+    <string name="mainScreen_lid">Lids</string>
+    <string name="mainScreen_cups">Cups</string>
+    <string name="mainScreen_pastries">Pastries</string>
+    <string name="mainScreen_coffee">Coffees</string>
+    <string name="mainScreen_creams">Creams</string>
+
+    <string name="enter_name">Enter Name Here</string>
+    <string name="enter_size">Enter Size Here</string>
+    <string name="enter_quantity">Enter Quantity Here</string>
+    <string name="enter_minimum">Enter Minimum Here</string>
+    <string name="enter_hot_cold">Enter Hot or Cold Here</string>
+    <string name="enter_roast">Enter Roast Here</string>
+    <string name="enter_ground_whole">Enter Ground or Whole Here</string>
+    <string name="enter_sugar_sugarFree">Enter Sugar or Sugar Free Here</string>
+
+    <string name="name">Name</string>
+    <string name="sugar">Sugar/Sugar Free</string>
+    <string name="stock">In Stock</string>
+    <string name="type">Type</string>
+    <string name="minimum">Minimum</string>
+    <string name="size">Size</string>
+    <string name="hot_cold">Hot/Cold</string>
+    <string name="roast">Roast</string>
+    <string name="dairy">Dairy</string>
+    <string name="ground_whole">Ground/Whole</string>
+    <string name="syrup">Syrup</string>
+    <string name="lid">Lid</string>
+    <string name="cup">Cup</string>
+    <string name="pastry">Pastry</string>
+    <string name="coffee">Coffee</string>
+    <string name="cream">Cream</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="add_button">Add Button</string>
+    <string name="generate_report">Generate Report</string>
+    <string name="report_title">Report</string>
+
+    <string name="name_list">Name:  </string>
+    <string name="type_list">Type: </string>
+    <string name="size_list">Size: </string>
+    <string name="stock_list">In Stock: </string>
+    <string name="min_list">Minimum: </string>
+    <string name="grind_list">Grind: </string>
+    <string name="roast_list">Roast: </string>
+    <string name="dairy_list">Dairy: </string>
+    <string name="syrup_search">Search Syrup</string>
+
+    <string name="delete_syrup_title">Delete Syrup</string>
+    <string name="delete_syrup_message">Are you sure you want to delete Syrup </string>
+    <string name="delete_coffee_title">Delete Coffee</string>
+    <string name="delete_coffee_message">Are you sure you want to delete Coffee </string>
+    <string name="delete_cream_title">Delete Cream</string>
+    <string name="delete_cream_message">Are you sure you want to delete Cream </string>
+    <string name="delete_pastry_title">Delete Pastry</string>
+    <string name="delete_pastry_message">Are you sure you want to delete Pastry </string>
+    <string name="delete_cup_title">Delete Cup</string>
+    <string name="delete_cup_message">Are you sure you want to delete Cup </string>
+    <string name="delete_lid_title">Delete Lid</string>
+    <string name="delete_lid_message">Are you sure you want to delete Lid </string>
+    <string name="delete_positive_button">Confirm</string>
+    <string name="delete_negative_button">Cancel</string>
+
+
+    <string-array name="sugar">
+        <item>Sugar</item>
+        <item>Sugar-Free</item>
+    </string-array>
+
+    <string-array name="roast">
+        <item>Espresso</item>
+        <item>Medium</item>
+        <item>Blonde</item>
+        <item>White Coffee</item>
+    </string-array>
+
+    <string-array name="beans">
+        <item>Whole</item>
+        <item>Ground</item>
+    </string-array>
+
+    <string-array name="dairy">
+        <item>Dairy</item>
+        <item>Non-Dairy</item>
+    </string-array>
+
+    <string-array name="hot_cold">
+        <item>Hot</item>
+        <item>Cold</item>
+    </string-array>
+
+    <string-array name="ounces">
+        <item>10oz</item>
+        <item>12oz</item>
+        <item>16oz</item>
+        <item>20oz</item>
+        <item>24oz</item>
+        <item>32oz</item>
+    </string-array>
+
+</resources>

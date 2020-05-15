@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coffeeshopinventorytracking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainScreenActivity"/>
+        <activity
+            android:name=".Syrups.SyrupsActivity"
+            android:parentActivityName=".Syrups.SyrupsListActivity"/>
+        <activity
+            android:name=".Syrups.SyrupsListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".Lids.LidsActivity"
+            android:parentActivityName=".Lids.LidsListActivity"/>
+        <activity
+            android:name=".Lids.LidsListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".Cups.CupsActivity"
+            android:parentActivityName=".Cups.CupsListActivity"/>
+        <activity
+            android:name=".Cups.CupsListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".Coffees.CoffeesActivity"
+            android:parentActivityName=".Coffees.CoffeesListActivity"/>
+        <activity
+            android:name=".Coffees.CoffeesListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".Pastries.PastriesActivity"
+            android:parentActivityName=".Pastries.PastriesListActivity"/>
+        <activity
+            android:name=".Pastries.PastriesListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".Creams.CreamsActivity"
+            android:parentActivityName=".Creams.CreamsListActivity"/>
+        <activity
+            android:name=".Creams.CreamsListActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+        <activity
+            android:name=".ReportViewActivity"
+            android:parentActivityName=".MainScreenActivity"/>
+    </application>
+
+</manifest>

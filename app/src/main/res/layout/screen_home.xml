@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/primaryBackground"
+    tools:context=".HomeScreen" >
+
+    <TextView
+        android:id="@+id/homeScreenTitleTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/homeScreen_title_top"
+        android:textColor="@color/primaryFont"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/homeScreenTitleBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/homeScreen_title_bottom"
+        android:textColor="@color/primaryFont"
+        android:textSize="30sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp">
+    <TextView
+        android:id="@+id/homeScreenUserTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingStart="10dp"
+        android:textColor="@color/primaryFont"
+        android:text="Username"/>
+    <EditText
+        android:id="@+id/homeScreenUserEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/primaryFont"
+        android:hint="Username"/>
+    <TextView
+        android:id="@+id/homeScreenPasswordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryFont"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        android:text="Password"/>
+    <EditText
+        android:id="@+id/homeScreenPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        android:textColor="@color/primaryFont"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/homeScreenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/secondaryBackground"
+        android:text="@string/homeScreen_button"
+        android:textColor="@color/secondaryFont" />
+
+</LinearLayout>
